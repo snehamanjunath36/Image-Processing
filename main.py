@@ -1,4 +1,6 @@
+# import statement
 import cv2
+# capture facility
 vid = cv2.VideoCapture(0);#0 is the port no
 while(True):
     ret , frame = vid.read()
